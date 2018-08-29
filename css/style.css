@@ -1,0 +1,100 @@
+.container{
+}
+
+.row{overflow: hidden;width:100%;}
+#preloader{height:630px;transition: 1.5s;transition-delay:0.8s;opacity:1;}
+
+*{font-family: 'Bellefair';}
+.loader{display: inline-block;margin: auto;text-align: center;}
+.loader .logoimg {margin-top:120px;margin-left:70px;display:block;float:left;transition: all 1s;}
+
+.login{margin-top:10px;}
+.login input{margin-left: 20px;border: none;background: lavender;-webkit-text-security: square;}
+.login .elem {margin-top:10px;}
+.login .buttons{margin-top:10px;}
+.login .user_type .utype{
+   width: 30%;
+    height: 20%;
+    background: rgba(150,1,1,0.2);
+    float: left;
+    margin: 5px;
+}
+
+#myProgress {
+    width: 100%;
+    height:6px;
+    background-color: lightgrey;
+    margin-top:350px;
+    opacity:0;
+}
+#myBar {
+    width: 1%;
+    height: 6px;
+    background-color: #2FAADD;
+    border-radius: 80px;
+
+}
+#loginb{
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background: aquamarine;
+}
+#registerb{
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background: darksalmon;
+}
+
+.tag
+{
+	display: inline-block;
+	margin: auto;
+	opacity:0;
+	transition: 1.5s;
+	transition-delay: 3s;
+}
+
+#homepage{height:0px;}
+.nav{display:grid;height:630px;}
+.navbar{height:630px;background: cadetblue;text-align: center;font-size: 1.3rem;font-weight:900;}
+.navitem{transition:all 0.5s;margin-top:50px;}
+.navitem:hover{font-size:2rem;}
+
+
+.col-lg-4{max-width: 100%;flex:0 0 80.33333%;}
+
+
+.profile{float:right;height:630px;background: lightgreen;}
+
+.feed {text-align: center;}
+
+.feed .items .telem {
+    float:left;
+    width:20%;
+    height:200px;
+    background: rgba(122,100,30,0.5);
+    margin:12px;
+}
+
+.feed .items .telem .elem_option{
+    width:80%;
+    height:30%;
+    background-color: orange;
+}
+#mhome{overflow: hidden; text-align: center;}
+#maboutme{
+    overflow: hidden; height:0px;text-align: center;}
+
+#mprojects{
+    overflow: hidden; height:0px;text-align: center;}
+
+#mcontact{
+    overflow: hidden; height:0px;text-align: center;}
+
+td{padding:10px;}

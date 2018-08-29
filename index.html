@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Joshi Enosh | Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="row" id="preloader">
+
+		<div class="loader">
+			<div id="myProgress">
+ 			<div id="myBar"></div>
+ 		</div>
+
+ 		<div class="question1">
+ 			Hi!! I am Joshi. Are you intelligent enough to crack my code!
+ 			<input type="button" value="Yes" onclick="showlogin()" id="qyes">
+ 				<input type="button" value="No" id="qno">
+ 		</div>
+
+ 		<form id="mlogin" class="login" style="display:none">
+ 			
+ 			<div class="elem">Username :<input type="text" id="uname"></div>
+ 			<div class="elem">Password :<input type="Password" id="pwd"></div>
+ 			<div class="buttons">
+ 				<input type="button" value="Login" onclick="progress()" id="loginb">
+ 				
+ 			</div>
+
+ 		</form>
+</div>
+	</div>
+
+	<div class="row main" id="homepage">
+		<div class="home row">
+
+			<div class="col-md-2">
+
+				<div class="navbar">
+					<div class="navitem" onclick="showhome()"> Home</div>
+					<div class="navitem" onclick="showabout()"> About Me</div>
+					<div class="navitem" onclick="showproj()"> Projects</div>
+					<div class="navitem" onclick="showcontact()"> Contact Me</div>
+				</div>
+
+			</div>
+
+
+			<div class="col-md-8">
+
+				<div class="home" id="mhome">
+					<h2>Welcome!!! So here are a few things about me: </h2>
+						
+						<p>As a fresher, I want to put use of my creative skills, the technologies that I am familiar with and various innovative thoughts that will benefit an Organization in the long run and will also help me in building my professional career. I am very adaptive to working in different work environments, mixed with a realm of risk-it-all challenging tasks. I am also intrigued by creative designs and architectures that glorify the extent to which we humans can think. I am always optimistic and know how to diffuse a heavily pressured workload by time management and proactive learning. I like to work in a slightly less competetive environment, where there is an equal oppurtunity to establish and nurture talent as well as experience. </p>
+
+						<br><br>
+
+						<table style="margin-left:250px;">
+							<th>
+								<tr>
+									<td>Year</td>
+									<td>Course</td>
+									<td>Institute</td>
+									<td>Aggregate Marks</td>
+								</tr>
+							</th>
+
+							<tr>
+								<td>2019</td>
+								<td>B.Tech (IT)</td>
+								<td>SRM IST, KTR</td>
+								<td>7.0/10 </td>
+							</tr>
+
+
+							<tr>
+								<td>2015</td>
+								<td>10+2</td>
+								<td>Narayana IIT JEE</td>
+								<td>92% </td>
+							</tr>
+
+							<tr>
+								<td>2013</td>
+								<td>SSC</td>
+								<td>Camford English HS</td>
+								<td>9.8/10 </td>
+							</tr>
+
+						</table>
+
+						<label style="padding:50px;background: rgba(220,250,100,0.5);border-radius: 180px;"><a href="https://drive.google.com/file/d/1zAiuuljLyjaCn33GD19TxLxZLspWi6hL/view?usp=sharing">Download CV</a></label>
+			
+				</div>
+
+				<div class="aboutme" id="maboutme" style="height:0px">
+
+					<h3>Energetic And Optimistic</h3>
+					<p>I think one of my biggest traits is that I am always energetic and optmistic about any situtation put infront of me. I try to conceive my emotions while being highly logicall in solving problems. I have the unique ability to take a sinking ship and try to make it float, despite the obstacles in the ocean.</p>
+					
+					<br><br>
+					<h3>The Voyager</h3>
+					<p>I always like to travel and explore new places and different people. I am also intruiged by photography, and I am always up for a photoshoot. I feel that clicking a picture is enclosing the positiveness, the joy and the emotion attached with a place, that I tend to remember again by viewing my clicks.</p>				
+
+					<br><br>
+					<h3>Energetic And Optimistic</h3>
+					<p>I think one of my biggest traits is that I am always energetic and optmistic about any situtation put infront of me. I try to conceive my emotions while being highly logicall in solving problems. I have the unique ability to take a sinking ship and try to make it float, despite the obstacles in the ocean.</p>	
+
+					<br><br>
+					<h3>Team Player</h3>
+					<p>I typically avoid center of attention, but I have good experience in working within teams and potentially identfying key players of a team. I try to channelize the abilities of the individuals into one direction and solve problems collaboratively. </p>
+				</div>
+
+				<div class="projects" id="mprojects" style="height:0px">
+					<h2>My Projects:</h2>
+					<br><br><br>
+					<h3>1. Fake Currency Detection.</h3>
+					<p>The Fake Currency Detector is a comparatitive case study analysis on different fake currencies that are used in the world. I basically learned the basics of classification and regression analysis using statistical machine learning tools. I learned and implemented K-Nearest Neighbors algorithms to produce a score for whether image of a denomination is fake or not. I used openCV to alter and convert the test image into greyscale and used a threshold to remove the noise, followed by reducing the dimension of the image. I extracted the key features inside the image and exported the vector obtained to a KNN classifier to classify as "Fake" or "Real".</p>
+
+
+					<h3>Big Data Analytics on Implant Training, IBM Hyderabad</h3>
+					<p>During the tenure of this project, I investifated several normalization and approximation algorithms used in BDA. I learned about Random-forest algorithms and their implementation in context to healthcare data analytics. I implemented random-forest normalization on a small-scale dataset obtained from few hospitals to detect implant patterns in Implant training. I also learned R programming language to operate on the dataset,followed by Python, for visualizing the results obtained.</p>
+				</div>
+
+				<div class="contact" id="mcontact" style="height:0px">
+					
+					<h2>I am always available for nice chat as well as coffee!!!!!</h2>
+					<br><br><br>
+					<p>Address: <b>Hno:6-420/4-3, Srinagar colony , Palamner,Chittoor(Dist), A.P</b></p>
+					<p>Phone: <b>+91 85005 14323</b></p>
+					<p>Email: <b>a.joshienosh@gmail.com</b></p>
+				</div>
+
+			</div>
+
+
+			<div class="col-md-2 profile" id="MyProfile">
+				<div class="profile">
+					
+					<p></p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+</div>
+
+</body>
+
+</html>
